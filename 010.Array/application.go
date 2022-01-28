@@ -14,4 +14,12 @@ func main() {
 	fmt.Println(balance)
 	fmt.Println(balance2)
 
+	// range
+	for _, value := range balance {
+		fmt.Println(value)
+	}
+	for index, value := range balance {
+		fmt.Println(index, value)
+	}
+
 }
